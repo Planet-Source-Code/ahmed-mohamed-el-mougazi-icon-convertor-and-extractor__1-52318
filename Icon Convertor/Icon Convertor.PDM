@@ -1,0 +1,107 @@
+[Root]
+Most Recent Package=Moughazi Soft
+
+
+[Package|Moughazi Soft|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\Mainproject\setup1
+
+[Package|Moughazi Soft|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Moughazi Soft|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Moughazi Soft|Files Found]
+
+[Package|Moughazi Soft|Files Released]
+
+[Package|Moughazi Soft|Missing Dependency Information]
+
+[Package|Moughazi Soft|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\COMCTL32.OCX=
+D:\WINDOWS\system32\MSCOMCTL.OCX=
+D:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Moughazi Soft|Files Added]
+h:\mainproject\picture.ico=
+h:\mainproject\image to ico convertor.exe.manifest=
+
+[Package|Moughazi Soft|Files Removed]
+
+[Package|Moughazi Soft|Files In Project]
+H:\Mainproject\Image to Ico Convertor.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\msvbvm50.dll=Yes
+D:\WINDOWS\system32\COMDLG32.OCX=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\WINDOWS\system32\COMCTL32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Mainproject\Picture.ico=Yes
+H:\Mainproject\Image to Ico Convertor.exe.MANIFEST=Yes
+
+[Package|Moughazi Soft|Configure Registry Files]
+Applicable=No
+
+[Package|Moughazi Soft|Configure Remote Servers]
+Applicable=No
+
+[Package|Moughazi Soft|Install Locations]
+H:\Mainproject\Image to Ico Convertor.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msvbvm50.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Mainproject\Picture.ico=$(AppPath)
+H:\Mainproject\Image to Ico Convertor.exe.MANIFEST=$(AppPath)
+
+[Package|Moughazi Soft|Configure Shared Files]
+Applicable=Yes
+H:\Mainproject\Image to Ico Convertor.exe=Yes
+H:\Mainproject\Picture.ico=Yes
+H:\Mainproject\Image to Ico Convertor.exe.MANIFEST=Yes
+
+[Package|Moughazi Soft|Distribution]
+Type=single
+Size=1.2 MB
+Title=Image to Icon Convertor
+
+[Package|Moughazi Soft|IconGroups]
+Group0=Image to Icon Convertor
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Moughazi Soft|Image to Icon Convertor]
+Icon1="Image to Ico Convertor.exe"
+Title1=Image to Icon Convertor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Moughazi Soft|Package]
+PackageFolder=H:\Mainproject\setup1
+ProjectFolder=H:\Mainproject
+ServerSideCab=
+File1=H:\Mainproject\setup1\setup.exe
+File2=H:\Mainproject\setup1\Setup.Lst
+File3=H:\Mainproject\setup1\Image to Ico Convertor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
